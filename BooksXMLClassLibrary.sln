@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksXMLClassLibrary", "BooksXMLClassLibrary\BooksXMLClassLibrary.csproj", "{23B58EE8-04D0-44BD-87D1-4A4615BA188F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9ED4245-D9C8-493B-B779-A05F999E7817}"
+	ProjectSection(SolutionItems) = preProject
+		Description.MD = Description.MD
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksXMLClassLibraryTests", "BooksXMLClassLibraryTests\BooksXMLClassLibraryTests.csproj", "{DEFB4DDC-5A07-4ED6-9FF4-EE8CAB8106C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B58EE8-04D0-44BD-87D1-4A4615BA188F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B58EE8-04D0-44BD-87D1-4A4615BA188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B58EE8-04D0-44BD-87D1-4A4615BA188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B58EE8-04D0-44BD-87D1-4A4615BA188F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFB4DDC-5A07-4ED6-9FF4-EE8CAB8106C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFB4DDC-5A07-4ED6-9FF4-EE8CAB8106C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFB4DDC-5A07-4ED6-9FF4-EE8CAB8106C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFB4DDC-5A07-4ED6-9FF4-EE8CAB8106C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59C38C85-9283-4EC7-BA12-DE6F72FE83AA}
+	EndGlobalSection
+EndGlobal

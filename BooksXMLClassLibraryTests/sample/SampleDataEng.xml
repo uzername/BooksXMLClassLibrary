@@ -1,0 +1,263 @@
+﻿<?xml version="1.0"?>
+<AllBooks>
+	<Book>
+		<BookAuthor>Austen Jane</BookAuthor>
+		<BookTitle>Pride and Prejudice</BookTitle>
+		<NumPages>1177</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Melville Herman</BookAuthor>
+		<BookTitle>Moby-Dick</BookTitle>
+		<NumPages>356</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Tolstoy Leo</BookAuthor>
+		<BookTitle>War and Peace</BookTitle>
+		<NumPages>1539</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Fitzgerald Scott</BookAuthor>
+		<BookTitle>The Great Gatsby</BookTitle>
+		<NumPages>1357</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Dostoevsky Fyodor</BookAuthor>
+		<BookTitle>Crime and Punishment</BookTitle>
+		<NumPages></NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Hemingway Ernest</BookAuthor>
+		<BookTitle>The Old Man And The Sea</BookTitle>
+		<NumPages>1320</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Lee Harper</BookAuthor>
+		<BookTitle>To Kill a Mockingbird</BookTitle>
+		<NumPages>761</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Bronte Emily</BookAuthor>
+		<BookTitle>Wuthering Heights</BookTitle>
+		<NumPages>1263</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Shelley Mary</BookAuthor>
+		<BookTitle>Frankenstein</BookTitle>
+		<NumPages>521</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Salinger</BookAuthor>
+		<BookTitle>The Catcher in the Rye</BookTitle>
+		<NumPages>499</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Whitman Walt</BookAuthor>
+		<BookTitle>Leaves of Grass</BookTitle>
+		<NumPages>291</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Dickinson Emily</BookAuthor>
+		<BookTitle>The Complete Poems of Emily Dickinson</BookTitle>
+		<NumPages>431</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Frost Robert</BookAuthor>
+		<BookTitle>North of Boston</BookTitle>
+		<NumPages>131</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Plath Sylvia</BookAuthor>
+		<BookTitle>Ariel</BookTitle>
+		<NumPages>640</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Eliot</BookAuthor>
+		<BookTitle>The Waste Land</BookTitle>
+		<NumPages>1255</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Yeats William Butler</BookAuthor>
+		<BookTitle>The Tower</BookTitle>
+		<NumPages>945</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Keats John</BookAuthor>
+		<BookTitle>Poems Published in 1820</BookTitle>
+		<NumPages>1668</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Blake William</BookAuthor>
+		<BookTitle>Songs of Innocence and Experience</BookTitle>
+		<NumPages>350</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Hughes Langston</BookAuthor>
+		<BookTitle>The Weary Blues</BookTitle>
+		<NumPages>797</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Browning Robert</BookAuthor>
+		<BookTitle>Men and Women</BookTitle>
+		<NumPages>1225</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Shevchenko Taras</BookAuthor>
+		<BookTitle>The Artist</BookTitle>
+		<NumPages>1532</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Shevchenko Taras</BookAuthor>
+		<BookTitle>Kobzar</BookTitle>
+		<NumPages>972</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Pushkin Alexander</BookAuthor>
+		<BookTitle>Poems and Ballads</BookTitle>
+		<NumPages>1297</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Franko Ivan</BookAuthor>
+		<BookTitle>Boa Constrictor</BookTitle>
+		<NumPages>1538</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Kobylianska Olha</BookAuthor>
+		<BookTitle>The Land</BookTitle>
+		<NumPages>1339</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Pidmohylny Valerian</BookAuthor>
+		<BookTitle>The City</BookTitle>
+		<NumPages>969</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Dovzhenko Oleksandr</BookAuthor>
+		<BookTitle>The Enchanted Desna</BookTitle>
+		<NumPages>456</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Milne Alan</BookAuthor>
+		<BookTitle>Winniethe-Pooh</BookTitle>
+		<NumPages>1064</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Rowling Joan</BookAuthor>
+		<BookTitle>Harry Potter and the Philosopher Stone</BookTitle>
+		<NumPages>1108</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Lewis Clive Staples</BookAuthor>
+		<BookTitle>Chronicles of Narnia</BookTitle>
+		<NumPages>760</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Carroll Lewis</BookAuthor>
+		<BookTitle>Alice in Wonderland</BookTitle>
+		<NumPages>1176</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Dahl Roald</BookAuthor>
+		<BookTitle>Charlie and the Chocolate Factory</BookTitle>
+		<NumPages>500</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Barrie James Matthew</BookAuthor>
+		<BookTitle>Peter Pan</BookTitle>
+		<NumPages>226</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Jachowicz Stanislaw</BookAuthor>
+		<BookTitle>Bajki i powiastki</BookTitle>
+		<NumPages>249</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Hubbard James</BookAuthor>
+		<BookTitle>The survival doctor complete handbook</BookTitle>
+		<NumPages>1070</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Kumar Parveen</BookAuthor>
+		<BookTitle>Kumar and Clarks Clinical Medicine</BookTitle>
+		<NumPages>438</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>American Red Cross</BookAuthor>
+		<BookTitle>First Aid CPR AED Participant Manual</BookTitle>
+		<NumPages>540</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Trott Alexander</BookAuthor>
+		<BookTitle>Wounds and Lacerations Emergency Care and Closure</BookTitle>
+		<NumPages>867</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Hamilton Richard</BookAuthor>
+		<BookTitle>Pocket Pharmacopoeia</BookTitle>
+		<NumPages>1201</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Fundamentals of Physics</BookTitle>
+		<NumPages>370</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Calculus</BookTitle>
+		<NumPages>473</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Campbell Neil</BookAuthor>
+		<BookTitle>Biology</BookTitle>
+		<NumPages>1160</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Principles of Economics</BookTitle>
+		<NumPages>1139</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Tanenbaum Andrew</BookAuthor>
+		<BookTitle>Computer Networks</BookTitle>
+		<NumPages>937</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Lovygin, Teverovskiy</BookAuthor>
+		<BookTitle>Modern CNC Machinery</BookTitle>
+		<NumPages>840</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Haynes John</BookAuthor>
+		<BookTitle>Haynes Automotive Repair Manual</BookTitle>
+		<NumPages>1400</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Pirsig Robert</BookAuthor>
+		<BookTitle>Zen and the Art of Motorcycle Maintenance</BookTitle>
+		<NumPages>1216</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Richey Deanna</BookAuthor>
+		<BookTitle>Home Repair and Maintenance</BookTitle>
+		<NumPages>1691</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Black Deanna Sclar</BookAuthor>
+		<BookTitle>Auto Repair For Dummies</BookTitle>
+		<NumPages>486</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Spence William</BookAuthor>
+		<BookTitle>Home Repair and Improvement</BookTitle>
+		<NumPages>975</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Duffy James</BookAuthor>
+		<BookTitle>Modern Automotive Technology</BookTitle>
+		<NumPages>768</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Kronover R</BookAuthor>
+		<BookTitle>Fractals</BookTitle>
+		<NumPages></NumPages>
+	</Book>
+</AllBooks>

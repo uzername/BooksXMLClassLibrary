@@ -1,0 +1,238 @@
+﻿<?xml version="1.0"?>
+<AllBooks>
+	<Book>
+		<BookAuthor>Іван Франко</BookAuthor>
+		<BookTitle>Перехресні стежки</BookTitle>
+		<NumPages>300</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Іван Франко</BookAuthor>
+		<BookTitle>Борислав сміється</BookTitle>
+		<NumPages>250</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Ліна Костенко, Василь Стус, Василь Симоненко</BookAuthor>
+		<BookTitle>Поезії</BookTitle>
+		<NumPages>178</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Григір Тютюнник</BookAuthor>
+		<BookTitle>Оповідання</BookTitle>
+		<NumPages>278</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Тарас Григорович Шевченко</BookAuthor>
+		<BookTitle>Кобзар</BookTitle>
+		<NumPages></NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Тарас Григорович Шевченко</BookAuthor>
+		<BookTitle>Балади</BookTitle>
+		<NumPages>265</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Едгар Берроуз</BookAuthor>
+		<BookTitle>Тарзан</BookTitle>
+		<NumPages>1278</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олександр Блок</BookAuthor>
+		<BookTitle>Вірші та балади</BookTitle>
+		<NumPages>236</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олександр Пушкін</BookAuthor>
+		<BookTitle>Євгеній Онєгін</BookTitle>
+		<NumPages>217</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олександр Пушкін</BookAuthor>
+		<BookTitle>Зібрання творів</BookTitle>
+		<NumPages>726</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олександр Фадєєв</BookAuthor>
+		<BookTitle>Молода гвардія</BookTitle>
+		<NumPages>514</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Дмитро Фурманов</BookAuthor>
+		<BookTitle>Чапаєв</BookTitle>
+		<NumPages>230</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Станіслав Лем</BookAuthor>
+		<BookTitle>Кіберіада</BookTitle>
+		<NumPages>430</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Аркадій и Борис Стругацкі</BookAuthor>
+		<BookTitle>Пікнік на узбіччі</BookTitle>
+		<NumPages>287</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Едгар По</BookAuthor>
+		<BookTitle>Вірші</BookTitle>
+		<NumPages>265</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Лев Толстой</BookAuthor>
+		<BookTitle>Війна і мир</BookTitle>
+		<NumPages>1365</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Війна 2022. Есеї, поезія</BookTitle>
+		<NumPages>555</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олексій Толстой</BookAuthor>
+		<BookTitle>Гиперболоїд інженера Гаріна</BookTitle>
+		<NumPages>222</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олексій Толстой</BookAuthor>
+		<BookTitle>Буратино</BookTitle>
+		<NumPages>158</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Микола Носов</BookAuthor>
+		<BookTitle>Незнайка</BookTitle>
+		<NumPages>607</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Олександр Волков</BookAuthor>
+		<BookTitle>Чарівник смарагдового міста</BookTitle>
+		<NumPages>541</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Народні казки</BookTitle>
+		<NumPages>131</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Антуан Де Сент Екзюпері</BookAuthor>
+		<BookTitle>Маленький принц</BookTitle>
+		<NumPages>246</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Віктор Гюго</BookAuthor>
+		<BookTitle>Собор Паризької Богоматері</BookTitle>
+		<NumPages>460</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Илья Ильф и Евгений Петров</BookAuthor>
+		<BookTitle>Одесская Плеяда</BookTitle>
+		<NumPages>500</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Антон Чехов</BookAuthor>
+		<BookTitle>Собрание сочинений</BookTitle>
+		<NumPages>589</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Артур Конан Дойл</BookAuthor>
+		<BookTitle>Шерлок Холмс</BookTitle>
+		<NumPages>589</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Артур Конан Дойл</BookAuthor>
+		<BookTitle>Шерлок Холмс Возвращается</BookTitle>
+		<NumPages>125</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Микола Гоголь</BookAuthor>
+		<BookTitle>Вечори на хуторі поблизу Диканьки</BookTitle>
+		<NumPages>135</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Микола Гоголь</BookAuthor>
+		<BookTitle>Мертві душі</BookTitle>
+		<NumPages>175</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Михайло Стельмах</BookAuthor>
+		<BookTitle>Оповідання</BookTitle>
+		<NumPages>513</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Михайло Старицький</BookAuthor>
+		<BookTitle>Кармелюк</BookTitle>
+		<NumPages>417</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Михайло Старицький</BookAuthor>
+		<BookTitle>Поезія</BookTitle>
+		<NumPages>417</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Джеймс Чейз</BookAuthor>
+		<BookTitle>Детектив</BookTitle>
+		<NumPages>425</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Джеймс Габбард</BookAuthor>
+		<BookTitle>Перша невідкладна допомога своїми руками</BookTitle>
+		<NumPages>405</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Елементарна фізика</BookTitle>
+		<NumPages>578</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Елементарна електротехніка</BookTitle>
+		<NumPages>239</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Елементарна хімія</BookTitle>
+		<NumPages>245</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Микола Стрюк</BookAuthor>
+		<BookTitle>Ремонт автомобіля ЗАЗ968</BookTitle>
+		<NumPages></NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Микола Барановський</BookAuthor>
+		<BookTitle>Ремонт</BookTitle>
+		<NumPages>289</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Анатолій Маловічко</BookAuthor>
+		<BookTitle>Застуда</BookTitle>
+		<NumPages>156</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Віра Озерова</BookAuthor>
+		<BookTitle>Ехінацея в лікуванні</BookTitle>
+		<NumPages>198</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Алевтина Корзунова</BookAuthor>
+		<BookTitle>Ехінацея</BookTitle>
+		<NumPages>108</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Перша медична допомога при ДТП</BookTitle>
+		<NumPages>218</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Підручник з водіння автомобіля</BookTitle>
+		<NumPages>265</NumPages>
+	</Book>
+	<Book>
+		<BookAuthor></BookAuthor>
+		<BookTitle>Підручник з будови автомобіля</BookTitle>
+		<NumPages></NumPages>
+	</Book>
+	<Book>
+		<BookAuthor>Анатолій Орлов</BookAuthor>
+		<BookTitle>Будова двигунів внутрішнього згорання</BookTitle>
+		<NumPages></NumPages>
+	</Book>
+</AllBooks>
