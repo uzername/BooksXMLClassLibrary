@@ -1,6 +1,7 @@
 ﻿using BooksXMLClassLibrary.Model;
 using System.Xml.Serialization;
 using System;
+using System.IO;
 
 namespace BooksXMLClassLibrary
 {
@@ -58,6 +59,10 @@ namespace BooksXMLClassLibrary
             if (newBook == null )  {
                 return null;
             }
+            if (allBooks == null)
+            {
+                allBooks = new List<BooksXML_Book>();
+            }
             uint cMaxNumber = getMaxBookNumber();
             // get real!
             if (cMaxNumber+1 == uint.MaxValue) { return null; }
@@ -66,7 +71,127 @@ namespace BooksXMLClassLibrary
             return newBook.bookNumber;
         }
 
+        public List<BooksXML_Book> FindBooksByPartOfTitle(String partTitle, bool ignoreCase)
+        {
+            List<BooksXML_Book> rslt = new List<BooksXML_Book>();
+            if ((allBooks == null)||(allBooks.Count == 0)) {
+                return rslt;
+            }
+            // if search term is empty then return full list
+            if (String.IsNullOrEmpty(partTitle)) {
+                return allBooks;
+            }
+            if (ignoreCase == false)   {
+                rslt = allBooks.FindAll((BooksXML_Book parm) => { return parm.title.Contains(partTitle); });
+            } else {
+                rslt = allBooks.FindAll((BooksXML_Book parm) => { return parm.title.Contains(partTitle, StringComparison.InvariantCultureIgnoreCase); });
+            }
+            return rslt;
+        }
+        /// <summary>
+        /// used to compare two book entries for sorting.
+        /// https://learn.microsoft.com/ru-ru/dotnet/api/system.collections.generic.list-1.sort?view=net-8.0
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns>number: 0 if they are "equal"</returns>
+        private static int booksComparator(BooksXML_Book x, BooksXML_Book y)
+        {
+            // x and y are referenced from outside
+            int compareTitles()
+            {
+                if (x.title == null && y.title == null) return 0;
+                else if (x.title == null) return -1;
+                else if (y.title == null) return 1;
+                else return x.title.CompareTo(y.title);
+            }
 
+            if ((x == null) || (y == null)) return 0;
+            if (x.author == null)
+            {
+                if (y.author == null)
+                {
+                    // apparently authors are same and null
+                    return compareTitles();
+                }
+                else
+                {
+                    // If first author is null and second author is not null, second author is greater.
+                    return -1;
+                }
+            }
+            else
+            {
+                // If first author is not null...
+                if (y == null)
+                {
+                    // ...and second is null, first is greater.
+                    return 1;
+                }
+                else
+                {
+                    int retval = x.author.CompareTo(y.author);
+                    if (retval != 0)
+                    {
+                        // authors are different
+                        return retval;
+                    }
+                    else
+                    {
+                        // If the authors are same then compare book titles
+                        return compareTitles();
+                    }
+
+                }
+            }
+        }
+        /// <summary>
+        /// Sort the list in alphabetical order by author first. Then for each author sort it in alphabetical order by title.
+        /// allBooks list gets sorted
+        /// </summary>
+        public void SortBooksInPlaceByAuthorAndTitle()
+        {
+            if ((allBooks == null)||(allBooks.Count ==0)) { return; }
+            allBooks.Sort( booksComparator );
+        }
+
+        /// <summary>
+        /// Sort the list in alphabetical order by author first. Then for each author sort it in alphabetical order by title
+        /// allBooks list remains same
+        /// </summary>
+        /// <returns>get sorted list of all books</returns>
+        public List<BooksXML_Book> SortBooksByAuthorAndTitle()
+        {
+            if ((allBooks == null) || (allBooks.Count == 0)) { return new List<BooksXML_Book>(); }
+            return allBooks.OrderBy(p=>p.author).ThenBy(p=>p.title).ToList();
+        }
+
+        /// <summary>
+        /// save edits to a book entry, by its number
+        /// </summary>
+        /// <param name="editedBook">contains data to save</param>
+        public void applyEditsToBook(BooksXML_Book editedBook)
+        {
+            if ((allBooks == null) || (allBooks.Count == 0)) return;
+            for (int i = 0; i < allBooks.Count; i++)
+            {
+                if (editedBook.bookNumber == allBooks[i].bookNumber)
+                {
+                    allBooks[i].title = editedBook.title;
+                    allBooks[i].author = editedBook.author;
+                    allBooks[i].pages = editedBook.pages;
+                    break;
+                }
+            }
+        }
+
+        public bool removeBook(BooksXML_Book removedBook)
+        {
+            if ((allBooks == null) || (allBooks.Count == 0)) return false;
+            int position = -1;
+            position = allBooks.FindIndex((BooksXML_Book pp) => { return pp.bookNumber == removedBook.bookNumber; });
+            if (position == -1) { return false; } else { allBooks.RemoveAt(position); return true; }
+        }
 
         /// <summary>
         /// save current content of list with entities to file
@@ -76,7 +201,7 @@ namespace BooksXMLClassLibrary
         {
             using (var writer = new FileStream(filePath, FileMode.Create))
             {
-                XmlSerializer ser = new XmlSerializer(typeof(List<BooksXML_ListOfBooks>), new XmlRootAttribute(allBooksRoot));
+                XmlSerializer ser = new XmlSerializer(typeof(BooksXML_ListOfBooks), new XmlRootAttribute(allBooksRoot));
                 ser.Serialize(writer, allBooks);
             }
         }
